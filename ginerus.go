@@ -3,7 +3,7 @@ package ginerus
 import (
 	"fmt"
 	"time"
-
+	"os"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 )
