@@ -9,7 +9,7 @@ import (
 )
 
 func Ginerus() gin.HandlerFunc {
-	return GinerusWithLogger(logrus.StandardLogger())
+	return GinerusWithLogger(logrus.StandardLogger(), nil)
 }
 
 func GinerusWithLogger(logger *logrus.Logger, config map[string]string) gin.HandlerFunc {
